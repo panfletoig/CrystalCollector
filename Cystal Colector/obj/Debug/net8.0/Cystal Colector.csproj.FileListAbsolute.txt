@@ -1,0 +1,15 @@
+C:\Users\Carlos\Documents\_Basura sin clasificar\Soluciones\Cystal Colector\Cystal Colector\obj\Debug\net8.0\Cystal Colector.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\Documents\_Basura sin clasificar\Soluciones\Cystal Colector\Cystal Colector\obj\Debug\net8.0\Cystal Colector.AssemblyInfoInputs.cache
+C:\Users\Carlos\Documents\_Basura sin clasificar\Soluciones\Cystal Colector\Cystal Colector\obj\Debug\net8.0\Cystal Colector.AssemblyInfo.cs
+C:\Users\Carlos\Documents\_Basura sin clasificar\Soluciones\Cystal Colector\Cystal Colector\obj\Debug\net8.0\Cystal Colector.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Documents\_Basura sin clasificar\Soluciones\Cystal Colector\Cystal Colector\obj\Debug\net8.0\Cystal Colector.sourcelink.json
+C:\Users\Carlos\Documents\_Basura sin clasificar\Soluciones\Cystal Colector\Cystal Colector\bin\Debug\net8.0\Cystal Colector.exe
+C:\Users\Carlos\Documents\_Basura sin clasificar\Soluciones\Cystal Colector\Cystal Colector\bin\Debug\net8.0\Cystal Colector.deps.json
+C:\Users\Carlos\Documents\_Basura sin clasificar\Soluciones\Cystal Colector\Cystal Colector\bin\Debug\net8.0\Cystal Colector.runtimeconfig.json
+C:\Users\Carlos\Documents\_Basura sin clasificar\Soluciones\Cystal Colector\Cystal Colector\bin\Debug\net8.0\Cystal Colector.dll
+C:\Users\Carlos\Documents\_Basura sin clasificar\Soluciones\Cystal Colector\Cystal Colector\bin\Debug\net8.0\Cystal Colector.pdb
+C:\Users\Carlos\Documents\_Basura sin clasificar\Soluciones\Cystal Colector\Cystal Colector\obj\Debug\net8.0\Cystal Colector.dll
+C:\Users\Carlos\Documents\_Basura sin clasificar\Soluciones\Cystal Colector\Cystal Colector\obj\Debug\net8.0\refint\Cystal Colector.dll
+C:\Users\Carlos\Documents\_Basura sin clasificar\Soluciones\Cystal Colector\Cystal Colector\obj\Debug\net8.0\Cystal Colector.pdb
+C:\Users\Carlos\Documents\_Basura sin clasificar\Soluciones\Cystal Colector\Cystal Colector\obj\Debug\net8.0\Cystal Colector.genruntimeconfig.cache
+C:\Users\Carlos\Documents\_Basura sin clasificar\Soluciones\Cystal Colector\Cystal Colector\obj\Debug\net8.0\ref\Cystal Colector.dll

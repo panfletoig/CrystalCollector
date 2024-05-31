@@ -1,0 +1,12 @@
+C:\Users\Carlos\Documents\_Basura sin clasificar\Soluciones\Cystal Colector\Cystal Colector\ClassLibrary1\bin\Debug\net8.0\Classes.deps.json
+C:\Users\Carlos\Documents\_Basura sin clasificar\Soluciones\Cystal Colector\Cystal Colector\ClassLibrary1\bin\Debug\net8.0\Classes.dll
+C:\Users\Carlos\Documents\_Basura sin clasificar\Soluciones\Cystal Colector\Cystal Colector\ClassLibrary1\bin\Debug\net8.0\Classes.pdb
+C:\Users\Carlos\Documents\_Basura sin clasificar\Soluciones\Cystal Colector\Cystal Colector\ClassLibrary1\obj\Debug\net8.0\Classes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\Documents\_Basura sin clasificar\Soluciones\Cystal Colector\Cystal Colector\ClassLibrary1\obj\Debug\net8.0\Classes.AssemblyInfoInputs.cache
+C:\Users\Carlos\Documents\_Basura sin clasificar\Soluciones\Cystal Colector\Cystal Colector\ClassLibrary1\obj\Debug\net8.0\Classes.AssemblyInfo.cs
+C:\Users\Carlos\Documents\_Basura sin clasificar\Soluciones\Cystal Colector\Cystal Colector\ClassLibrary1\obj\Debug\net8.0\Classes.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Documents\_Basura sin clasificar\Soluciones\Cystal Colector\Cystal Colector\ClassLibrary1\obj\Debug\net8.0\Classes.sourcelink.json
+C:\Users\Carlos\Documents\_Basura sin clasificar\Soluciones\Cystal Colector\Cystal Colector\ClassLibrary1\obj\Debug\net8.0\Classes.dll
+C:\Users\Carlos\Documents\_Basura sin clasificar\Soluciones\Cystal Colector\Cystal Colector\ClassLibrary1\obj\Debug\net8.0\refint\Classes.dll
+C:\Users\Carlos\Documents\_Basura sin clasificar\Soluciones\Cystal Colector\Cystal Colector\ClassLibrary1\obj\Debug\net8.0\Classes.pdb
+C:\Users\Carlos\Documents\_Basura sin clasificar\Soluciones\Cystal Colector\Cystal Colector\ClassLibrary1\obj\Debug\net8.0\ref\Classes.dll
