@@ -1,7 +1,7 @@
 ﻿using static System.Console;
 using Classes;
 
-namespace Cystal_Colector
+namespace Crystal_Colector
 {
 	internal static class TvModule
 	{
@@ -26,14 +26,14 @@ namespace Cystal_Colector
 						attachAnswers[i] = IOModules.GetStringUserInput($"Agrega la repuesta No.{i+1} ", "Respuesta"); //Obtiene las respuestas
 					}
 
-					correctIndex = IOModules.GetIntUserInput("Selecciona la respuesta correcta\n", "(Opcion)> "); //Obtiene el indice de la correcta
+					correctIndex = IOModules.GetIntUserInput("Selecciona la respuesta correcta\n", "(Opción)> "); //Obtiene el indice de la correcta
 					Clear();
 
 					//Imprime un resumen
 					DisplaySummary(newQuestion, attachAnswers, correctIndex);
 
 					//Si es correcto todo lo agrega
-					if(IOModules.GetIntUserInput("Esta seguro de su respuesta\n1. Si\n2. No\n", "(Opcion)> ") == 1)
+					if(IOModules.GetIntUserInput("Esta seguro de su respuesta\n1. Si\n2. No\n", "(Opción)> ") == 1)
 					{
 						trivia.AddNewEntry(newQuestion, attachAnswers, correctIndex);
 					}

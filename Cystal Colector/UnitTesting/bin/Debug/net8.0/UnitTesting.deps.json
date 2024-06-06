@@ -346,12 +346,12 @@
           "Classes.dll": {}
         }
       },
-      "Cystal Colector/1.0.0": {
+      "Crystal Colector/1.0.0": {
         "dependencies": {
           "Classes": "1.0.0"
         },
         "runtime": {
-          "Cystal Colector.dll": {}
+          "Crystal Colector.dll": {}
         }
       }
     }
@@ -472,7 +472,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Cystal Colector/1.0.0": {
+    "Crystal Colector/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

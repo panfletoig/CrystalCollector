@@ -1,7 +1,7 @@
 ﻿using static System.Console;
 using Classes;
 
-namespace Cystal_Colector
+namespace Crystal_Colector
 {
 	internal static class OpModule
 	{
@@ -135,15 +135,19 @@ namespace Cystal_Colector
 		//Obtiene el nombre y genero del usuario
 		private static void GetUserDataPreferences(ref string name, ref int gender)
 		{
-			WriteLine("Bienvenido a Crystal Collector!!!\n");
-			name = IOModules.GetStringUserInput("¿Cómo deberia llamarte?", "Nombre"); //Obtiene input de texto para nombrar a el player :3
+			IOModules.DisplayColorMessage("Bienvenido a Crystal Collector!!!\n", ConsoleColor.Blue);
+
+			name = IOModules.GetStringUserInput("¿Cómo deberìa llamarte?", "Nombre"); //Obtiene input de texto para nombrar a el player :3
+
 			if(name.Length >= 15)
 			{
 				name = name[..12] + "...";
 			}
 			Clear();
 
-			WriteLine($"Bienvenido {name} a Crystal Collector!!!\n");
+
+			IOModules.DisplayColorMessage($"Bienvenido {name} a Crystal Collector!!!\n", ConsoleColor.Blue);//Imprime el mensaje con ese color
+			
 			IOModules.DisplayGenderSelection();
 			gender = IOModules.GetIntUserInput(); //Obtiene input entero para seleccionar genero del jugador
 			Clear();

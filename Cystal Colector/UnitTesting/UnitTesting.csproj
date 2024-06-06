@@ -24,7 +24,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ClassLibrary1\Classes.csproj" />
-    <ProjectReference Include="..\Cystal Colector\Cystal Colector.csproj" />
+    <ProjectReference Include="..\Cystal Colector\Crystal Colector.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,7 +1,7 @@
 ﻿using static System.Console;
 using Classes;
 
-namespace Cystal_Colector
+namespace Crystal_Colector
 {
 	internal static class IOModules
 	{
@@ -182,7 +182,7 @@ namespace Cystal_Colector
 				"Chica (♀)",
 				"Chico (♂)"
 				];
-			string indicator = "(Genero) > ";
+			string indicator = "(Genero)> ";
 
 			DisplayOptions(title, options, indicator);
 		}
@@ -213,7 +213,7 @@ namespace Cystal_Colector
 			int option;
 			do
 			{
-				option = GetIntUserInput("", "(Opcion)> ");
+				option = GetIntUserInput("", "(Opción)> ");
 			} while (option <= 0 || option > 4);
 
 			CursorVisible = false;
@@ -227,7 +227,7 @@ namespace Cystal_Colector
 		public static void DisplayError(Exception e)
 		{
 			//Imprime el error y tambien limpia la consola
-			WriteLine("\nOcurrio un error :c");
+			WriteLine("\nOcurrío un error :c");
 			WriteLine(e.Message);
 			ReadLine();
 			Clear();
@@ -293,6 +293,13 @@ namespace Cystal_Colector
 			WriteLine("¡Oh no! Un enemigo");
 			WriteLine("Si respondes correctamente te dejara pasar\n");
 
+			ResetColor();
+		}
+
+		public static void DisplayColorMessage(string text, ConsoleColor color)
+		{
+			ForegroundColor = color;
+			WriteLine(text);
 			ResetColor();
 		}
 	}

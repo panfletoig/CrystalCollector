@@ -1,10 +1,6 @@
-﻿using Classes;
-using System.Diagnostics;
-using System.Reflection;
-using System.Xml.Linq;
-using static System.Console;
+﻿using static System.Console;
 
-namespace Cystal_Colector
+namespace Crystal_Colector
 {
 	internal class Program
 	{
@@ -14,6 +10,8 @@ namespace Cystal_Colector
 			Title = "Crystal Collector";
 			//Cambiar la codificación de salida de la consola
 			OutputEncoding = System.Text.Encoding.UTF8;
+
+			OpModule.Start(true);
 
 			//Usada en el desarollo para agregar preguntas a la trivia :3
 			//True para solo entrar trivia module pero no al juego

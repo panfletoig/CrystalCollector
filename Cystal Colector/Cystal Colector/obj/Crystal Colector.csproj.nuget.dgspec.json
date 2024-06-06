@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\C\\CrystalCollector\\Cystal Colector\\Cystal Colector\\Cystal Colector.csproj": {}
+    "C:\\Users\\User\\Documents\\C\\CrystalCollector\\Cystal Colector\\Cystal Colector\\Crystal Colector.csproj": {}
   },
   "projects": {
     "C:\\Users\\User\\Documents\\C\\CrystalCollector\\Cystal Colector\\ClassLibrary1\\Classes.csproj": {
@@ -64,12 +64,12 @@
         }
       }
     },
-    "C:\\Users\\User\\Documents\\C\\CrystalCollector\\Cystal Colector\\Cystal Colector\\Cystal Colector.csproj": {
+    "C:\\Users\\User\\Documents\\C\\CrystalCollector\\Cystal Colector\\Cystal Colector\\Crystal Colector.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\C\\CrystalCollector\\Cystal Colector\\Cystal Colector\\Cystal Colector.csproj",
-        "projectName": "Cystal Colector",
-        "projectPath": "C:\\Users\\User\\Documents\\C\\CrystalCollector\\Cystal Colector\\Cystal Colector\\Cystal Colector.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\C\\CrystalCollector\\Cystal Colector\\Cystal Colector\\Crystal Colector.csproj",
+        "projectName": "Crystal Colector",
+        "projectPath": "C:\\Users\\User\\Documents\\C\\CrystalCollector\\Cystal Colector\\Cystal Colector\\Crystal Colector.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\User\\Documents\\C\\CrystalCollector\\Cystal Colector\\Cystal Colector\\obj\\",
         "projectStyle": "PackageReference",

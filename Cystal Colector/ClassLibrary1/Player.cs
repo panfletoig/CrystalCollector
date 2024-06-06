@@ -217,7 +217,7 @@ namespace Classes
 			}
 			WriteLine();
 
-			WriteLine(format: formats, "Nombre", "Cristales Restantes", "Cristales Obtenidos", "Puntos", "Ubicacion");
+			WriteLine(format: formats, "Nombre", "Cristales Restantes", "Cristales Obtenidos", "Puntos", "Coords");
 			WriteLine(format: formats, this.Name, gemsPerLevel - this.Crystals, this.Crystals, this.Points, $"{this.PosPlayer[0]},{this.PosPlayer[1]}");
 
 			//Coloca una tapa al final de la tabla
