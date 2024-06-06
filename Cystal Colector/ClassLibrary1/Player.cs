@@ -118,7 +118,7 @@ namespace Classes
 		public void AddPoints(string character, int actualLevel, int gemsPerLevel)
         {
             string prefix = ""; //Prefijo para determinar el punteo
-            bool portal = character == "▒"; //Si el caracter es un portal
+            bool portal = character.Equals("▒"); //Si el caracter es un portal
             bool crystals = this.Crystals >= gemsPerLevel; //Si obtubo todos los cristales
 
             //Asignamos el prefijo dependiento de el portal
@@ -136,11 +136,11 @@ namespace Classes
             {
                 prefix = "-";
             }
-            else if(character == "2")
+            else if(character.Equals("2"))
             {
                 character = "+";
             }
-            else if(character == "1")
+            else if(character.Equals("1"))
             {
                 character = "-";
             }
@@ -152,7 +152,7 @@ namespace Classes
 			if (PointValues.TryGetValue(character, out int value))
             {
                 //Si es un dimante se añade un cristal al inventario
-                if(character == PointValues.Keys.ElementAt(0))
+                if(character.Equals(PointValues.Keys.ElementAt(0)))
                 {
                     this.Crystals++;
                 }

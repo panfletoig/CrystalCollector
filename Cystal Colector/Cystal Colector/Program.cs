@@ -16,7 +16,7 @@ namespace Cystal_Colector
 			OutputEncoding = System.Text.Encoding.UTF8;
 
 			//Usada en el desarollo para agregar preguntas a la trivia :3
-			//False para solo entrar trivia module pero no al juego
+			//True para solo entrar trivia module pero no al juego
 			bool triviaModule = false;
 			if(triviaModule) { TvModule.TriviaModule(); } //Si esta activo entra al modulo
 
@@ -39,7 +39,7 @@ namespace Cystal_Colector
 						switch(op)
 						{
 							case 1:
-								OpModule.Start();
+								OpModule.Start(); //Acepta un parametro booleano true para ver a los trolls o testear el juego
 								break;
 							case 2:
 								IOModules.DisplayInstructions(); //Imprime las instucciones

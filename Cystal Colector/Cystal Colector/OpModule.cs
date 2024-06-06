@@ -36,6 +36,13 @@ namespace Cystal_Colector
 				player.DisplayBox(level.GetGemsPerLevel());
 
 				int[] CoordXY = IOModules.AxisInput(); //Coordenada que se suma a donde busca moverse el jugador
+				
+				//si se presiono esc rompe el ciclo
+				if (CoordXY[0] == 3 && CoordXY[1] == 3){ 
+					Clear();
+					break; 
+				} 
+
 				string character = level.GetNextBox(CoordXY); //retorna que hay en la siguente casilla
 
 				AddPoints(CoordXY, character, ref player, ref level, debug); //Añade los puntos
@@ -65,7 +72,7 @@ namespace Cystal_Colector
 		private static void AddPoints(int[] CoordXY, string character, ref Player player, ref Level level, bool debug = false)
 		{
 			//Si es una trivia la realiza
-			if (character == "1")
+			if (character.Equals("1"))
 			{
 				if (!debug)
 				{
@@ -91,7 +98,7 @@ namespace Cystal_Colector
 		{
 			bool canMove = true;
 			bool allCrystals = player.GetCrystals() == level.GetGemsPerLevel();
-			bool isPortal = character == "▒"; //Si el caracter es un portal = true
+			bool isPortal = character.Equals("▒"); //Si el caracter es un portal = true
 
 			//Si no es un portal sin todas las gemas genera un nuevo portal exepto nivel 1
 			if (isPortal && !allCrystals && level.GetActualLevel() != 1)

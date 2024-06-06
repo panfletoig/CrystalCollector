@@ -87,7 +87,7 @@ namespace Classes
 			y = (y < 0) ? 0 : (y >= LevelSize) ? LevelSize - 1 : y;
 
 			//Retorna el siguiente caracter por si hay un enemigo sino retorna el caracter de el tablero
-			if (this.Board[y, x] == EnemyRepresent || this.Board[y, x] == " ")
+			if (this.Board[y, x] == EnemyRepresent || this.Board[y, x].Equals(" "))
 			{
 				return this.PosEnemys[y, x].ToString();
 			}
@@ -193,7 +193,7 @@ namespace Classes
 				}
 
 				//comprueba si esta vacia la casilla de troll o enemigo
-				isEmptySpace = (this.Board[x, y] == " ") && (this.PosEnemys[x, y] == 0);
+				isEmptySpace = (this.Board[x, y].Equals(" ")) && (this.PosEnemys[x, y] == 0);
 
 				if (!isEmptySpace)
 				{
@@ -226,7 +226,7 @@ namespace Classes
 				int y = rnd.Next(0, LevelSize); //Coordenada y aleatoria
 
 				//comprueba si esta vacia la casilla de troll o enemigo
-				isEmptySpace = (this.Board[x, y] == " ") && (this.PosEnemys[x, y] == 0);
+				isEmptySpace = (this.Board[x, y].Equals(" ")) && (this.PosEnemys[x, y] == 0);
 
 				//Agrega el caracter si el espacio esta vacio
 				if (isEmptySpace && visible)
@@ -261,7 +261,7 @@ namespace Classes
 
 			//Imprime coordenada Y e Imprime el tablero con instruccuines
 			string[] text = [
-				"- ASDW o ←↑→↓ para moverse", 
+				"- ASDW o ←↑→↓ para moverse, M para salir al menú", 
 				"- Recolecta todos los Cristales ♦", 
 				"- Ve al portal ▒", 
 				"- Es posible encontrar a trolls invisibles" 
@@ -279,22 +279,22 @@ namespace Classes
 				for (int y = 0; y < LevelSize; y++)
 				{
 					Write($"| ");
-					if (Board[x, y] == "♦")
+					if (Board[x, y].Equals("♦"))
 					{
 						ForegroundColor = ConsoleColor.Red;
 						Write(Board[x, y]);
 					}
-					else if (Board[x, y] == "▒")
+					else if (Board[x, y].Equals("▒"))
 					{
 						ForegroundColor = ConsoleColor.DarkMagenta;
 						Write(Board[x, y]);
 					}
-					else if (Board[x, y] == "♂")
+					else if (Board[x, y].Equals("♂"))
 					{
 						ForegroundColor = ConsoleColor.DarkCyan;
 						Write(Board[x, y]);
 					}
-					else if (Board[x, y] == "♀")
+					else if (Board[x, y].Equals("♀"))
 					{
 						ForegroundColor = ConsoleColor.DarkYellow;
 						Write(Board[x, y]);

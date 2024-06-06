@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cystal Colector")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3f5a9dd411a3db6ab4e6440ddefa97dbc3ddc4e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+269578a034d2b91f273198ce2d1a153f98f9e1b2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cystal Colector")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cystal Colector")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

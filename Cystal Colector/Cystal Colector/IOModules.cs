@@ -19,6 +19,7 @@ namespace Cystal_Colector
 					keyPress == ConsoleKey.S || keyPress == ConsoleKey.DownArrow,
 					keyPress == ConsoleKey.D || keyPress == ConsoleKey.RightArrow,
 					keyPress == ConsoleKey.W || keyPress == ConsoleKey.UpArrow,
+					keyPress == ConsoleKey.M,
 				];
 
 			//Izquierda
@@ -29,7 +30,7 @@ namespace Cystal_Colector
 			else if (direction[2]) { x = 1; }
 			//Arriba
 			else if (direction[3]) { y = -1; }
-
+			else if (direction[4]) { x = 3; y = 3; }
 			return [x, y];
 		}
 		//Obtiene una valor entero
@@ -68,10 +69,10 @@ namespace Cystal_Colector
 			for (int i = 0; i < options.Length; i++)
 			{
 				//[..1] al parecer abrebia .substring(0,1) y si es un guion imprime una tabulacion
-				if (options[i][..1] == "-")
+				if (options[i][..1].Equals("-"))
 				{
 					text += "\t";
-					if (options[i][..2] == "--")
+					if (options[i][..2].Equals("--"))
 					{
 						text += $"\t";
 						options[i] = options[i][1..]; //[1..] = SubString(1, options.length - 1)
@@ -108,8 +109,8 @@ namespace Cystal_Colector
 		{
 			string title = "INSTRUCCIONES\n";
 			string[] options = [
-				"Selecciona tu personaje",
 				"Asignale un nombre",
+				"Selecciona tu personaje",
 				"Muevete por el tablero",
 				"-Reune todas las gemas ♦",
 				"-Responde las preguntas de los trolls",
