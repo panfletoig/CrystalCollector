@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = UnitTesting
-build_property.ProjectDir = C:\Users\Carlos\Documents\_Basura sin clasificar\Soluciones\Cystal Colector\Cystal Colector\UnitTesting\
+build_property.ProjectDir = C:\Users\User\Documents\C\CrystalCollector\Cystal Colector\UnitTesting\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
